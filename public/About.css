@@ -1,0 +1,27 @@
+.about-us{
+    padding-top: 4rem;
+}
+
+
+
+.about-description{
+    padding:1rem;
+}
+
+.about-description h2{
+    color:rgb(185,149,26);
+}
+.img-mark{
+    text-align: center;
+}
+
+.mark-img{
+    padding-top: 2rem;
+}
+
+.row {
+
+    margin-right: 0px;
+    margin-left: 0px;
+
+}

@@ -1,0 +1,78 @@
+.welcome-mensage-cont{
+    padding:0rem;
+    
+}
+
+.welcome-mensage{
+    
+    padding: 2rem;
+    color:white;
+    font-family: 'Montserrat'; 
+}
+
+.color-1{
+    background-color:rgba(211, 116, 22, 0.918);
+}
+
+.color-2{
+    background-color:rgb(185,149,26, 0.918)
+}
+
+.color-3{
+    background-color:rgb(163,170,55, 0.918)
+}
+
+.welcome-buttom{
+    padding:1rem;
+    
+}
+
+.primero{
+    text-align: left;
+    padding-bottom: 23%;
+}
+.segundo{
+    text-align: center;
+    padding-bottom: 4%;
+}
+.tercero{
+    text-align: left;
+    padding-bottom: 12%;
+}
+
+
+
+.carousel-center .images {
+    object-fit: cover;
+    width: 100%;
+    height: 38.4rem;
+    text-align: none;
+   }
+
+
+@media (max-width: 486px){
+    .welcome-mensage h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .welcome-mensage h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .welcome-buttom{
+        text-align: center;
+    }
+
+    .primero , .segundo , .tercero{
+        padding-bottom: 15%;
+
+    }
+
+    .carousel-center .images {
+        object-fit: cover;
+        width: 100%;
+        height: 430px;
+        text-align: none;
+       }
+}
