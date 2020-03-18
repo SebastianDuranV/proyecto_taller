@@ -1,0 +1,29 @@
+.navbar_color {
+  background-color: rgb(185, 149, 26);
+}
+
+main {
+  padding-top: 56px;
+}
+
+.App-logo {
+  height: 40px;
+  padding-right: 0px;
+}
+
+.navbar_fonts {
+  font-family: "Open Sans";
+  letter-spacing: 3px;
+}
+
+.name {
+  font-family: "Montserrat";
+  letter-spacing: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  background-image: url("/img/foto_edificio.png");
+  background-size: 100%;
+}

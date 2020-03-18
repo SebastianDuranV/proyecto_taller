@@ -3,7 +3,7 @@ import Router from "next/router";
 import NProgress from "nprogress";
 
 import { Auth } from "../src/client/components/Auth/Context";
-import Navigation from "../src/client/components/Navigation";
+import Navigation from "../src/client/components/navbar";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
