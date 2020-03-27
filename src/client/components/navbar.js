@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "next/link";
-
+import { useRouter } from "next/router";
 // import PageNotFound from "./PageNotFound";
 
 function Navigation() {
+  const { pathname } = useRouter();
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark  navbar_color">
       <img src="/logo.png" className="App-logo" alt="logo" href="/" />
@@ -23,29 +25,27 @@ function Navigation() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="nav-item navbar_fonts active">
+          <li
+            className={
+              "nav-item navbar_fonts " + (pathname === "/" ? "active" : "")
+            }
+          >
             <Link href="/">
               <a className="nav-link" tabIndex="-1" aria-disabled="true">
-                Home
+                Inicio
               </a>
             </Link>
           </li>
-          <li className="nav-item navbar_fonts">
-            <Link href="/About">
-              <a className="nav-link">About</a>
-            </Link>
-          </li>
 
-          <li className="nav-item navbar_fonts">
+          <li
+            className={
+              "nav-item navbar_fonts " +
+              (pathname === "/projects" ? "active" : "")
+            }
+          >
             <Link href="/projects">
-              <a className="nav-link">Projects</a>
+              <a className="nav-link">Proyectos</a>
             </Link>
-          </li>
-
-          <li className="nav-item navbar_fonts">
-            <a className="nav-link disabled" tabIndex="-1" aria-disabled="true">
-              Copyright 2020{" "}
-            </a>
           </li>
         </ul>
       </div>

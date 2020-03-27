@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Projects() {
@@ -20,12 +21,13 @@ function Projects() {
               <span className="text-muted">Valdivia, Chile.</span>
             </h2>
             <p className="lead">
-              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se hace un monitoreo del edificio 9000 (Pabellón docente).
-          </p>
+              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se
+              hace un monitoreo del edificio 9000 (Pabellón docente).
+            </p>
             <div>
-              <button className="btn btn-light but">>
-                Ver Cubículos
-            </button>
+              <Link href="/miraflores">
+                <button className="btn btn-light but">Ver Cubículos</button>
+              </Link>
             </div>
           </div>
         </div>
