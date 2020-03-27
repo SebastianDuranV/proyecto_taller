@@ -31,10 +31,10 @@ function Carousel(props) {
               <div className="welcome-mensage color-1">
                 <h1> Bienvenido a WIDESPACE</h1>
                 <h2> Un lugar para organizar tu espacio y tiempo</h2>
-                <div className="welcome-buttom">
-                  <buttom type="buttom" className="btn btn-light but">
+                <div className="welcome-button">
+                  <button type="button" className="btn btn-light but">
                     Leer más
-                  </buttom>
+                  </button>
                 </div>
               </div>
             </div>
@@ -51,10 +51,10 @@ function Carousel(props) {
               <div className="welcome-mensage color-3">
                 <h1> Bienvenido a WIDESPACE</h1>
                 <h2> Un lugar para organizar tu espacio y tiempo</h2>
-                <div className="welcome-buttom">
-                  <buttom type="buttom" className="btn btn-light but">
+                <div className="welcome-button">
+                  <button type="button" className="btn btn-light but">
                     Leer más
-                  </buttom>
+                  </button>
                 </div>
               </div>
             </div>
@@ -71,10 +71,10 @@ function Carousel(props) {
               <div className="welcome-mensage color-2 ">
                 <h1> Bienvenido a WIDESPACE</h1>
                 <h2> Un lugar para organizar tu espacio y tiempo</h2>
-                <div className="welcome-buttom">
-                  <buttom type="buttom" className="btn btn-light but">
+                <div className="welcome-button">
+                  <button type="button" className="btn btn-light but">
                     Leer más
-                  </buttom>
+                  </button>
                 </div>
               </div>
             </div>

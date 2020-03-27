@@ -27,3 +27,36 @@ body {
   background-image: url("/img/foto_edificio.png");
   background-size: 100%;
 }
+
+#ListaCubiculos {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: lightsteelblue;
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  grid-row-gap: 80px;
+  justify-content: center;
+}
+
+.Cubiculo {
+  border: 2px solid black;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#disponible {
+  background-color: limegreen;
+}
+
+#ocupado {
+  background-color: red;
+}
+
+#deshabilitado {
+  background-color: rgb(127, 21, 168);
+}
