@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div>
-      <div className="row featurette about-us">
+      <div className="row-marig-zero featurette about-us">
         <div className="col-md-7 order-md-2 mark-info about-description">
           <h2 className="featurette-heading featurette-heading-logo">
             Oh yeah, it's that good.{" "}
@@ -13,7 +13,7 @@ function About() {
             WIDESPACE ctd. fue establecido en 1994 que es una empresa de alta
             tecnología nacional especializada en la investigación y la
             fabricación de las herramientas diamantadas de las herramientas
-            eléctricas y de las herramientas del TCT
+            eléctricas y de las herramientas del TCT.
           </p>
         </div>
         <div className="col-md-5 order-md-1 img-mark">

@@ -19,9 +19,33 @@
     padding-top: 2rem;
 }
 
-.row {
-
+.row-marig-zero {
+    
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
     margin-right: 0px;
     margin-left: 0px;
 
+}
+
+.project-titulo{
+    text-align: center;
+    padding:12px; 
+    color:white;
+    margin-left: 14vmin;
+    margin-right: 14vmin;
+    margin-top: 30px;
+
+}
+
+.project-description{
+    margin-top: 20px;
+    padding:1rem;
+}
+
+.project-description h2{
+    color:rgb(67, 59, 136);
 }

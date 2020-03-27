@@ -37,6 +37,12 @@ function Navigation() {
           </li>
 
           <li className="nav-item navbar_fonts">
+            <Link href="/projects">
+              <a className="nav-link">Projects</a>
+            </Link>
+          </li>
+
+          <li className="nav-item navbar_fonts">
             <a className="nav-link disabled" tabIndex="-1" aria-disabled="true">
               Copyright 2020{" "}
             </a>
