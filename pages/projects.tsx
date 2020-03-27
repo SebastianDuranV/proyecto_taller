@@ -13,18 +13,20 @@ function Projects() {
             width="400rem"
           />
         </div>
-        <div className="col-sm-7 order-md-1 mark-info project-description color-3">
-          <h2 className="featurette-heading featurette-heading-logo">
-            Miraflores UACh{" "}
-            <span className="text-muted">Valdivia, Chile.</span>
-          </h2>
-          <p className="lead">
-            Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se hace un monitoreo del edificio 9000 (Pabellón docente).
+        <div className=" col-sm-6 order-md-1 mark-info project-description color-3">
+          <div className="project-description">
+            <h2 className="featurette-heading featurette-heading-logo">
+              Miraflores UACh{" "}
+              <span className="text-muted">Valdivia, Chile.</span>
+            </h2>
+            <p className="lead">
+              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se hace un monitoreo del edificio 9000 (Pabellón docente).
           </p>
-          <div>
-            <button className="btn btn-light but">>
-              Ver Cubículos
+            <div>
+              <button className="btn btn-light but">>
+                Ver Cubículos
             </button>
+            </div>
           </div>
         </div>
       </div>

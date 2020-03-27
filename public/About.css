@@ -42,8 +42,16 @@
 }
 
 .project-description{
+    
+   
     margin-top: 20px;
-    padding:1rem;
+    margin-left: 9vmin;
+    margin-right: 19vmin;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    
+
 }
 
 .project-description h2{
