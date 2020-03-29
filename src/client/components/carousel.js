@@ -49,13 +49,11 @@ function Carousel(props) {
           <div className="carousel-caption  d-md-block segundo">
             <div className="welcome-mensage-cont ">
               <div className="welcome-mensage color-3">
-                <h1> Bienvenido a WIDESPACE</h1>
-                <h2> Un lugar para organizar tu espacio y tiempo</h2>
-                <div className="welcome-button">
-                  <button type="button" className="btn btn-light but">
-                    Leer más
-                  </button>
-                </div>
+                <img
+                  src="./img/logotipo_coloresOficiales/logotipo_blanco.png"
+                  alt="widespace"
+                  width="550rem"
+                />
               </div>
             </div>
           </div>
@@ -69,13 +67,8 @@ function Carousel(props) {
           <div className="carousel-caption d-md-block tercero">
             <div className="welcome-mensage-cont ">
               <div className="welcome-mensage color-2 ">
-                <h1> Bienvenido a WIDESPACE</h1>
-                <h2> Un lugar para organizar tu espacio y tiempo</h2>
-                <div className="welcome-button">
-                  <button type="button" className="btn btn-light but">
-                    Leer más
-                  </button>
-                </div>
+                <h1> Optimiza tu TIEMPO </h1>
+                <h2> "Siempre hay tiempo para todo"</h2>
               </div>
             </div>
           </div>

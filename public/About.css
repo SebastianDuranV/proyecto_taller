@@ -9,14 +9,15 @@
 }
 
 .about-description h2{
-    color:rgb(185,149,26);
+    color:rgb(156, 189, 39);
+
 }
 .img-mark{
     text-align: center;
 }
 
 .mark-img{
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .row-marig-zero {

@@ -20,7 +20,7 @@ const Index = () => {
           </div>
           <div className="col-md-5 order-md-1 img-mark">
             <img
-              src="/img/logotipo_oro.png"
+              src="./img/logotipo_coloresOficiales/logotipo_verdecitrico.png"
               className="mark-img"
               alt="widespace"
               width="450rem"
