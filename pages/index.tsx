@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div>
       <Carousel />
-      <div>
+      <div className="container marketing">
         <div className="row-marig-zero featurette about-us">
           <div className="col-md-7 order-md-2 mark-info about-description">
             <h2 className="featurette-heading featurette-heading-logo">

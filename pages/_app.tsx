@@ -4,6 +4,7 @@ import NProgress from "nprogress";
 
 import { Auth } from "../src/client/components/Auth/Context";
 import Navigation from "../src/client/components/navbar";
+import PiePagina from "../src/client/components/piepag"
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
@@ -16,7 +17,11 @@ export default class MyApp extends App {
     return (
       <Auth>
         <Navigation />
+
         <Component {...pageProps} />
+        <div className="container marketing">
+          <PiePagina />
+        </div>
       </Auth>
     );
   }
