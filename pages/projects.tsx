@@ -8,7 +8,7 @@ function Projects() {
       <div className=" row-marig-zero featurette about-us">
         <div className="col-md-2 order-md-2 img-mark">
           <img
-            src="/img/imgProj/edificio9000.jpg"
+            src="/img/Edificios miraflores/3.png"
             className="d-block "
             alt="Edificio 9000 Miraflores UACh"
             width="400rem"
@@ -38,9 +38,9 @@ function Projects() {
       <div className=" row-marig-zero featurette about-us">
         <div className="col-md-3 order-md-1 img-mark project-description-imgb">
           <img
-            src="/img/imgProj/edificio9000.jpg"
+            src="/img/Edificios miraflores/2.png"
             className="d-block "
-            alt="Edificio 9000 Miraflores UACh"
+            alt="Edificio 10000 Miraflores UACh"
             width="400rem"
           />
         </div>
@@ -51,8 +51,7 @@ function Projects() {
               <span className="text-muted">Valdivia, Chile.</span>
             </h2>
             <p className="lead">
-              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se
-              hace un monitoreo del edificio 9000 (Pabellón docente).
+              Edificio 10000. Para el uso optimizado de los laboratorios.
             </p>
             <div>
               <h3>Proximamente...</h3>
@@ -66,9 +65,9 @@ function Projects() {
       <div className=" row-marig-zero featurette about-us">
         <div className="col-md-2 order-md-2 img-mark">
           <img
-            src="/img/imgProj/edificio9000.jpg"
+            src="/img/Edificios miraflores/1.png"
             className="d-block "
-            alt="Edificio 9000 Miraflores UACh"
+            alt="Edificio 8000 Miraflores UACh"
             width="400rem"
           />
         </div>
@@ -79,8 +78,7 @@ function Projects() {
               <span className="text-muted">Valdivia, Chile.</span>
             </h2>
             <p className="lead">
-              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se
-              hace un monitoreo del edificio 9000 (Pabellón docente).
+              Edificio 8000, espacio de estudio para los mecanicos y electronicos.
             </p>
             <div>
               <h3>Proximamente...</h3>
