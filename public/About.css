@@ -8,10 +8,7 @@
     padding:1rem;
 }
 
-.about-description h2{
-    color:rgb(156, 189, 39);
 
-}
 .img-mark{
     text-align: center;
 }
@@ -98,3 +95,24 @@
 h3 {
     color:rgb(255, 255, 255);
 }
+
+.image-size{
+    width: 66vmin;
+}
+
+
+.color-letra-1 {
+    color: rgba(211, 116, 22, 0.918);
+  }
+  
+  .color-letra-2 {
+    color: rgb(185, 149, 26, 0.918);
+  }
+  
+  .color-letra-3 {
+    color: rgb(163, 170, 55, 0.918);
+  }
+
+  .color-letra-4 {
+    color:rgb(156, 189, 39);
+  }
