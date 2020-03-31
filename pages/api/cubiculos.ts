@@ -1,6 +1,6 @@
 import express from "express";
 
-// import cubiculosJSON from "../../src/const/Cubiculos.json";
+import cubiculosJSON from "../../src/const/Cubiculos.json";
 import { common } from "../../src/server/middleware";
 import { CubiculoModel } from "../../src/server/models";
 import { validation } from "../../src/server/utils/validation";
@@ -28,15 +28,15 @@ app.use(
   ),
   async (req, res) => {
     const project: string = req.query.project;
-    // await CubiculoModel.create(
-    //   cubiculosJSON.map((cubiculo, index) => {
-    //     return {
-    //       label: cubiculo.id,
-    //       project: "miraflores",
-    //       index
-    //     };
-    //   })
-    // );
+    await CubiculoModel.create(
+      cubiculosJSON.map((cubiculo, index) => {
+        return {
+          label: cubiculo.id,
+          project: "miraflores",
+          index
+        };
+      })
+    );
     res.send(
       await CubiculoModel.find({
         project
