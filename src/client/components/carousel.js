@@ -50,9 +50,9 @@ function Carousel(props) {
             <div className="welcome-mensage-cont ">
               <div className="welcome-mensage color-3">
                 <img
+                  className="img-logotipo"
                   src="./img/logotipo_coloresOficiales/logotipo_blanco.png"
                   alt="widespace"
-                  width="550rem"
                 />
               </div>
             </div>

@@ -7,7 +7,7 @@ function Navigation() {
   const { pathname } = useRouter();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark  navbar_color">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar_color">
       <img src="/logo.png" className="App-logo" alt="logo" href="/" />
       <a className="navbar-brand name" href="/#">
         WIDESPACE
