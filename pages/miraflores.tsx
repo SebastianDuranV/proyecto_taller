@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 import { Cubiculo } from "../src/interfaces";
 
-// import cubiculos from "../src/const/Cubiculos.json";
+//import cubiculos from "../src/const/Cubiculos.json";
 
 function renderCubiculo({
   cubiculo: { _id, disponibilidad, label },
