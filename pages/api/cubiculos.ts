@@ -28,15 +28,15 @@ app.use(
   ),
   async (req, res) => {
     const project: string = req.query.project;
-    // await CubiculoModel.create(
-    //   cubiculosJSON.map((cubiculo, index) => {
-    //     return {
-    //       label: cubiculo.id,
-    //       project: "miraflores",
-    //       index
-    //     };
-    //   })
-    // );
+    /**await CubiculoModel.create(
+      cubiculosJSON.map((cubiculo, index) => {
+        return {
+          label: cubiculo.id,
+          project: "miraflores",
+          index
+        };
+      })
+    );**/
     res.send(
       await CubiculoModel.find({
         project

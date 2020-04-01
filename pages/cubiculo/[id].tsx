@@ -8,13 +8,14 @@ export default () => {
 
   const cubiculoId = id?.toString() ?? "";
 
+
   return (
-    <CardGroup>
+    <CardGroup className="listaBotones">
       <Card>
-        <Button>Habilitar Cubiculo {cubiculoId}</Button>
+        <Button className="botonOcupar">Voy entrando al cubículo {cubiculoId}</Button>
       </Card>
       <Card>
-        <Button>Deshabilitar {cubiculoId}</Button>
+        <Button className="botonDesocupar">Voy saliendo del cubículo {cubiculoId}</Button>
       </Card>
     </CardGroup>
   );

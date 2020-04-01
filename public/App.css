@@ -60,3 +60,18 @@ body {
 #deshabilitado {
   background-color: rgb(182, 67, 1);
 }
+
+.listaBotones{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: lightsteelblue;
+}
+
+.botonOcupar{
+  background-color: rgb(199, 0, 0);
+  color: white;
+  
+}
