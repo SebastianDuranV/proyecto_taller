@@ -19,4 +19,6 @@ export const CubiculoSchema = new Schema<Cubiculo & Document>({
     type: Number,
     required: true
   }
+}, {
+  timestamps: true
 });
