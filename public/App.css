@@ -1,5 +1,6 @@
 .navbar_color {
   background-color: rgb(185, 149, 26);
+  color:white;
 }
 
 main {
@@ -21,6 +22,9 @@ main {
   letter-spacing: 6px;
   padding-left: 10px;
   padding-right: 10px;
+  color : white;
+  font-size: 30 px;
+  text-decoration: none;
 }
 
 body {
@@ -59,4 +63,10 @@ body {
 
 #deshabilitado {
   background-color: rgb(127, 21, 168);
+}
+
+@media (max-width: 486px){
+  .name {
+    font-size: 0px;
+  }
 }

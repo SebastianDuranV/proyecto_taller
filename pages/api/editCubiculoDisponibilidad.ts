@@ -18,10 +18,11 @@ app.use(
   }),
   async (req, res) => {
     const cubiculoId: string = req.body.cubiculo;
-    // const disponibilidad: string = req.body.disponibilidad;
+    //const disponibilidad: string = req.body.disponibilidad;
+    const disponibilidad: 0 | 1 | 2 = req.body.disponibilidad;
     const cubiculo = await CubiculoModel.findById(cubiculoId);
 
-    cubiculo.disponibilidad = 2;
+    cubiculo.disponibilidad = disponibilidad;
     // modificar cubiculo segun disponibilidad
 
     res.send(

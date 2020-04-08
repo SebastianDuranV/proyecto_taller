@@ -7,11 +7,13 @@ function Navigation() {
   const { pathname } = useRouter();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar_color">
-      <img src="/logo.png" className="App-logo" alt="logo" href="/" />
-      <a className="navbar-brand name" href="/#">
+    <nav className="navbar navbar-expand-lg fixed-top navbar_color">
+      <img src="/logo.png" className="App-logo" alt="logo" href="/#" />
+      <div><div className="name" href="/#">
         WIDESPACE
-      </a>
+      </div>
+      </div>
+
       <button
         className="navbar-toggler"
         type="button"
@@ -21,9 +23,11 @@ function Navigation() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <div className="navbar-dark">
+          <span className="navbar-toggler-icon"></span>
+        </div>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
+      <div className=" navbar-dark collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li
             className={
