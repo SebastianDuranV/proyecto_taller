@@ -154,6 +154,8 @@ export default () => {
 
   return (
     <div>
+      <hr className="featurette-divider" />
+      <h1>Lista de cubiculos de miraflores</h1>
       <div id="ListaCubiculos">
         {cubiculosState.map(cubiculo =>
           renderCubiculo({ cubiculo, onClickChange, onClickChange_data, getId_label })
