@@ -32,9 +32,6 @@ function Carousel(props) {
                 <h1> Bienvenido a WIDESPACE</h1>
                 <h2> Un lugar para organizar tu espacio y tiempo</h2>
                 <div className="welcome-button">
-                  <button type="button" className="btn btn-light but">
-                    Leer más
-                  </button>
                 </div>
               </div>
             </div>

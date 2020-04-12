@@ -8,6 +8,9 @@
     padding:1rem;
 }
 
+.img-width img{
+    width: 400rem;
+}
 
 .img-mark{
     text-align: center;
@@ -115,4 +118,15 @@ h3 {
 
   .color-letra-4 {
     color:rgb(156, 189, 39);
+  }
+
+  @media (max-width: 486px) {
+    .project-titulo {
+        font-size: 1.4rem;
+    }
+
+    .img-width img{
+        width: 16rem;
+    }
+
   }

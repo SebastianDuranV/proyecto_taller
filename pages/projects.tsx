@@ -6,12 +6,11 @@ function Projects() {
     <div>
       <h1 className="color-3 project-titulo">P R O Y E C T O S</h1>
       <div className=" row-marig-zero featurette about-us">
-        <div className="col-md-2 order-md-2 img-mark">
+        <div className="col-md-2 order-md-2 img-mark img-width">
           <img
             src="/img/Edificios miraflores/3.png"
             className="d-block "
             alt="Edificio 9000 Miraflores UACh"
-            width="400rem"
           />
         </div>
         <div className=" col-sm-7 order-md-1 mark-info project-description color-1">
@@ -36,15 +35,14 @@ function Projects() {
       <h1 className="title-other-projects" >Proximos proyectos</h1>
 
       <div className=" row-marig-zero featurette about-us">
-        <div className="col-md-3 order-md-1 img-mark project-description-imgb">
+        <div className="col-md-3 order-md-1 img-mark project-description-imgb img-width">
           <img
             src="/img/Edificios miraflores/2.png"
             className="d-block "
             alt="Edificio 10000 Miraflores UACh"
-            width="400rem"
           />
         </div>
-        <div className=" col-sm-7 order-md-2 mark-info project-description-b color-2">
+        <div className=" col-sm-7 order-md-2 mark-info project-description-b color-2 ">
           <div>
             <h2 className="featurette-heading featurette-heading-logo">
               Miraflores UACh{" "}
@@ -63,12 +61,11 @@ function Projects() {
 
 
       <div className=" row-marig-zero featurette about-us">
-        <div className="col-md-2 order-md-2 img-mark">
+        <div className="col-md-2 order-md-2 img-mark img-width">
           <img
             src="/img/Edificios miraflores/1.png"
             className="d-block "
             alt="Edificio 8000 Miraflores UACh"
-            width="400rem"
           />
         </div>
         <div className=" col-sm-7 order-md-1 mark-info project-description color-3">

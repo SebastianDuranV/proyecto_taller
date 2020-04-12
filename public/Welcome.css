@@ -56,7 +56,7 @@ width: 40rem;
 @media (max-width: 486px) {
   .welcome-mensage h1 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .welcome-mensage h2 {
     text-align: center;
