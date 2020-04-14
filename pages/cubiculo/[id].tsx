@@ -75,7 +75,11 @@ export default () => {
     return (
       cubiculosState.map(cubiculo => {
         if (cubiculo._id === id) {
-          return cubiculo.disponibilidad;
+          if (cubiculo.disponibilidad === 0) {
+            return "Ocupado";
+          } else {
+            return "Disponible";
+          }
         }
       })
     )
