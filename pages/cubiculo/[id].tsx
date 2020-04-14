@@ -11,7 +11,7 @@ export default () => {
     query: { id }
   } = useRouter();
 
-  const cubiculoId = id ?.toString() ?? "";
+  const cubiculoId = id?.toString() ?? "";
   //const cubiculoDisponibilidad = index ?.toString() ?? "";
 
   // para estableser el estado de cubiculo
@@ -26,6 +26,7 @@ export default () => {
         return cubiculo;
       })
     );
+    actualizarCubiculo(id, disponibilidad);
   };
 
   const actualizarCubiculo = async (
@@ -59,23 +60,56 @@ export default () => {
     });
   }, []);
 
+  const GetUpdateCubiculo = (id: string) => {
+    return (
+      cubiculosState.map(cubiculo => {
+        if (cubiculo._id === id) {
+          return cubiculo.updatedAt;
+        }
+      })
+    )
+  };
+
+
+  const GetDisponibilidadCubiculo = (id: string) => {
+    return (
+      cubiculosState.map(cubiculo => {
+        if (cubiculo._id === id) {
+          return cubiculo.disponibilidad;
+        }
+      })
+    )
+  };
+
+  const GetLabelCubiculo = (id: string) => {
+    return (
+      cubiculosState.map(cubiculo => {
+        if (cubiculo._id === id) {
+          return cubiculo.label;
+        }
+      })
+    )
+  };
+
+
   return (
     <div>
+      <hr className="featurette-divider" />
       <CardGroup>
         <Card>
-          <button className="btn btn-light but" onClick={() => onClickChange(cubiculoId, 0)}>
-            Habilitar Cubiculo {cubiculoId}</button>
+          <Button onClick={() => onClickChange(cubiculoId, 0)}>
+            Habilitar Cubiculo {GetLabelCubiculo(cubiculoId)}</Button>
         </Card>
         <Card>
-          <button className="btn btn-light but" onClick={() => onClickChange(cubiculoId, 1)}>
-            Deshabilitar {cubiculoId}</button>
+          <Button onClick={() => onClickChange(cubiculoId, 1)}>
+            Deshabilitar {GetLabelCubiculo(cubiculoId)}</Button>
         </Card>
       </CardGroup>
       <hr className="featurette-divider" />
       <div className="welcome-mensage-cont ">
         <div className="welcome-mensage color-1">
-          <h2> Estado del cubiculo {cubiculoId} : {}</h2>
-          <a color="white">Actuazación : </a>
+          <h2> Estado del cubiculo {GetLabelCubiculo(cubiculoId)} : {GetDisponibilidadCubiculo(cubiculoId)}</h2>
+          <a color="white">Actuazación : {GetUpdateCubiculo(cubiculoId)} </a>
         </div>
       </div>
     </div>
