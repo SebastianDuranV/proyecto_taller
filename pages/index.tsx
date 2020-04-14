@@ -12,10 +12,7 @@ const Index = () => {
               <span className="text-muted">Organizalo tu mismo.</span>
             </h2>
             <p className="lead">
-              WIDESPACE ctd. fue establecido en 1994 que es una empresa de alta
-              tecnología nacional especializada en la investigación y la
-              fabricación de las herramientas diamantadas de las herramientas
-              eléctricas y de las herramientas del TCT.
+              WIDESPACE ctd. fue establecido en 2020 como ayuda a la comunidad universitaria.
             </p>
           </div>
           <div className="col-md-3 order-md-1 img-mark">
@@ -35,19 +32,12 @@ const Index = () => {
               Organiza tu TIEMPO.{" "}
               <span className="text-muted">¡optimizalo!.</span>
             </h2>
-            <p className="lead">
-              WIDESPACE ctd. fue establecido en 1994 que es una empresa de alta
-              tecnología nacional especializada en la investigación y la
-              fabricación de las herramientas diamantadas de las herramientas
-              eléctricas y de las herramientas del TCT.
-            </p>
           </div>
           <div className="col-md-3 order-md-2 img-mark">
             <img
               src="./img/representatividad/tiempo_representativo.svg"
               className="image-size mark-img"
               alt="tiempo"
-
             />
           </div>
         </div>
@@ -60,12 +50,6 @@ const Index = () => {
               Evita malos ratos.{" "}
               <span className="text-muted">Prioriza tus tiempo con nosotros</span>
             </h2>
-            <p className="lead">
-              WIDESPACE ctd. fue establecido en 1994 que es una empresa de alta
-              tecnología nacional especializada en la investigación y la
-              fabricación de las herramientas diamantadas de las herramientas
-              eléctricas y de las herramientas del TCT.
-            </p>
           </div>
           <div className="col-md-3 order-md-1 img-mark">
             <img
