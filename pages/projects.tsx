@@ -6,12 +6,11 @@ function Projects() {
     <div>
       <h1 className="color-3 project-titulo">P R O Y E C T O S</h1>
       <div className=" row-marig-zero featurette about-us">
-        <div className="col-md-2 order-md-2 img-mark">
+        <div className="col-md-2 order-md-2 img-mark img-width">
           <img
-            src="/img/imgProj/edificio9000.jpg"
+            src="/img/Edificios miraflores/3.png"
             className="d-block "
             alt="Edificio 9000 Miraflores UACh"
-            width="400rem"
           />
         </div>
         <div className=" col-sm-7 order-md-1 mark-info project-description color-1">
@@ -36,23 +35,21 @@ function Projects() {
       <h1 className="title-other-projects" >Proximos proyectos</h1>
 
       <div className=" row-marig-zero featurette about-us">
-        <div className="col-md-3 order-md-1 img-mark project-description-imgb">
+        <div className="col-md-3 order-md-1 img-mark project-description-imgb img-width">
           <img
-            src="/img/imgProj/edificio9000.jpg"
+            src="/img/Edificios miraflores/2.png"
             className="d-block "
-            alt="Edificio 9000 Miraflores UACh"
-            width="400rem"
+            alt="Edificio 10000 Miraflores UACh"
           />
         </div>
-        <div className=" col-sm-7 order-md-2 mark-info project-description-b color-2">
+        <div className=" col-sm-7 order-md-2 mark-info project-description-b color-2 ">
           <div>
             <h2 className="featurette-heading featurette-heading-logo">
               Miraflores UACh{" "}
               <span className="text-muted">Valdivia, Chile.</span>
             </h2>
             <p className="lead">
-              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se
-              hace un monitoreo del edificio 9000 (Pabellón docente).
+              Edificio 10000. Para el uso optimizado de los laboratorios.
             </p>
             <div>
               <h3>Proximamente...</h3>
@@ -64,12 +61,11 @@ function Projects() {
 
 
       <div className=" row-marig-zero featurette about-us">
-        <div className="col-md-2 order-md-2 img-mark">
+        <div className="col-md-2 order-md-2 img-mark img-width">
           <img
-            src="/img/imgProj/edificio9000.jpg"
+            src="/img/Edificios miraflores/1.png"
             className="d-block "
-            alt="Edificio 9000 Miraflores UACh"
-            width="400rem"
+            alt="Edificio 8000 Miraflores UACh"
           />
         </div>
         <div className=" col-sm-7 order-md-1 mark-info project-description color-3">
@@ -79,8 +75,7 @@ function Projects() {
               <span className="text-muted">Valdivia, Chile.</span>
             </h2>
             <p className="lead">
-              Este es el projecto denominado <cite>Q+Riculos</cite>, en donde se
-              hace un monitoreo del edificio 9000 (Pabellón docente).
+              Edificio 8000, espacio de estudio para los mecanicos y electronicos.
             </p>
             <div>
               <h3>Proximamente...</h3>

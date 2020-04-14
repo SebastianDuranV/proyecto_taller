@@ -2,6 +2,10 @@
   padding: 0rem;
 }
 
+.main-top{
+  padding-top: 8vmin;
+}
+
 .welcome-mensage {
   padding: 2rem;
   color: white;
@@ -21,6 +25,7 @@
 }
 
 .welcome-button {
+
   padding: 1rem;
 }
 
@@ -44,10 +49,14 @@
   text-align: none;
 }
 
+.img-logotipo{
+width: 40rem;
+}
+
 @media (max-width: 486px) {
   .welcome-mensage h1 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .welcome-mensage h2 {
     text-align: center;
@@ -69,5 +78,9 @@
     width: 100%;
     height: 430px;
     text-align: none;
+  }
+
+  .img-logotipo{
+    width: 60vmin;
   }
 }

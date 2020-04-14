@@ -17,10 +17,11 @@ export default class MyApp extends App {
     return (
       <Auth>
         <Navigation />
-
-        <Component {...pageProps} />
-        <div className="container marketing">
-          <PiePagina />
+        <div className="main-top">
+          <Component {...pageProps} />
+          <div className="container marketing">
+            <PiePagina />
+          </div>
         </div>
       </Auth>
     );

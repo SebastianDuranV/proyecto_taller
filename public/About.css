@@ -8,15 +8,16 @@
     padding:1rem;
 }
 
-.about-description h2{
-    color:rgb(185,149,26);
+.img-width img{
+    width: 400px;
 }
+
 .img-mark{
     text-align: center;
 }
 
 .mark-img{
-    padding-top: 2rem;
+    padding-top: -1rem;
 }
 
 .row-marig-zero {
@@ -97,3 +98,35 @@
 h3 {
     color:rgb(255, 255, 255);
 }
+
+.image-size{
+    width: 30vmin;
+}
+
+
+.color-letra-1 {
+    color: rgba(211, 116, 22, 0.918);
+  }
+  
+  .color-letra-2 {
+    color: rgb(185, 149, 26, 0.918);
+  }
+  
+  .color-letra-3 {
+    color: rgb(163, 170, 55, 0.918);
+  }
+
+  .color-letra-4 {
+    color:rgb(156, 189, 39);
+  }
+
+  @media (max-width: 486px) {
+    .project-titulo {
+        font-size: 1.4rem;
+    }
+
+    .img-width img{
+        width: 16rem;
+    }
+
+  }
