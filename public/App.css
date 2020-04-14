@@ -54,15 +54,15 @@ body {
 }
 
 #disponible {
-  background-color: limegreen;
+  background-color: rgb(8, 187, 8);
 }
 
 #ocupado {
-  background-color: red;
+  background-color: rgb(211, 31, 31);
 }
 
 #deshabilitado {
-  background-color: rgb(127, 21, 168);
+  background-color: rgb(182, 67, 1);
 }
 
 @media (max-width: 486px){
