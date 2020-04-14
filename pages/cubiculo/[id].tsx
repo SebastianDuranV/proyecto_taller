@@ -101,12 +101,12 @@ export default () => {
       <hr className="featurette-divider" />
       <CardGroup>
         <Card>
-          <Button onClick={() => onClickChange(cubiculoId, 0)}>
+          <Button onClick={() => onClickChange(cubiculoId, 1)}>
             Habilitar Cubiculo {GetLabelCubiculo(cubiculoId)}</Button>
         </Card>
         <Card>
-          <Button onClick={() => onClickChange(cubiculoId, 1)}>
-            Deshabilitar {GetLabelCubiculo(cubiculoId)}</Button>
+          <Button onClick={() => onClickChange(cubiculoId, 0)}>
+            Deshabilitar Cubiculo {GetLabelCubiculo(cubiculoId)}</Button>
         </Card>
       </CardGroup>
       <hr className="featurette-divider" />

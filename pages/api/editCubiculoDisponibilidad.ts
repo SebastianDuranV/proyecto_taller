@@ -24,7 +24,7 @@ app.use(
 
     cubiculo.disponibilidad = disponibilidad;
     // modificar cubiculo segun disponibilidad
-
+    await cubiculo.save();
     res.send(
       //cubiculo
       {}
