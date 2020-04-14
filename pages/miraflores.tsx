@@ -7,9 +7,10 @@ import { Cubiculo } from "../src/interfaces";
 var id_nombre: String;
 var Id_disponibilidad: 0 | 1 | 2;
 var id_updatedAt: Date;
+var id_createdAt: Date;
 
 function renderCubiculo({
-  cubiculo: { _id, disponibilidad, label, updatedAt },
+  cubiculo: { _id, disponibilidad, label, updatedAt, createdAt },
   onClickChange,
   onClickChange_data,
   //id_nombre
@@ -19,11 +20,14 @@ function renderCubiculo({
   getId_label: (id: string) => String;
   cubiculo: Cubiculo;
   onClickChange: (id: string, disponibilidad: number) => void;
-  onClickChange_data: (label: String, id: string, disponibilidad: 0 | 1 | 2, updatedAt: Date) => String;
+  onClickChange_data: (label: String, id: string, disponibilidad: 0 | 1 | 2, updatedAt: Date, createdAt: Date) => String;
 }) {
   //Recordar eliminar esto
-  console.log(label);
-  console.log(_id);
+  //console.log(label);
+  //console.log(_id);
+  //console.log(updatedAt);
+
+  console.log("sds" + "sdas");
 
   if (disponibilidad === 1) {
     return (
@@ -32,7 +36,7 @@ function renderCubiculo({
         id="disponible"
         key={_id}
         //onClick={() => onClickChange(_id, (disponibilidad + 1) % 3)}
-        onClick={() => onClickChange_data(label, _id, disponibilidad, updatedAt)}
+        onClick={() => onClickChange_data(label, _id, disponibilidad, updatedAt, createdAt)}
       >
         <h1>{label}</h1>
         <p>Disponible</p>
@@ -45,7 +49,7 @@ function renderCubiculo({
         id="ocupado"
         key={_id}
         //onClick={() => onClickChange(_id, (disponibilidad + 1) % 3)}
-        onClick={() => onClickChange_data(label, _id, disponibilidad, updatedAt)}
+        onClick={() => onClickChange_data(label, _id, disponibilidad, updatedAt, createdAt)}
       >
         <h1>{label}</h1>
         <p>Ocupado</p>
@@ -58,7 +62,7 @@ function renderCubiculo({
       id="deshabilitado"
       key={_id}
       //onClick={() => onClickChange(_id, (disponibilidad + 1) % 3)}
-      onClick={() => onClickChange_data(label, _id, disponibilidad, updatedAt)}
+      onClick={() => onClickChange_data(label, _id, disponibilidad, updatedAt, createdAt)}
 
     >
       <h1>{label}</h1>
@@ -111,7 +115,7 @@ export default () => {
   };
 
   // retornar el data del cubiculo
-  const onClickChange_data = (label: String, id: string, disponibilidad: 0 | 1 | 2, updatedAt: Date) => {
+  const onClickChange_data = (label: String, id: string, disponibilidad: 0 | 1 | 2, updatedAt: Date, createdAt: Date) => {
     setCubiculosState(
       cubiculosState.map(cubiculo => {
         if (cubiculo._id === id) {
@@ -123,6 +127,7 @@ export default () => {
     id_updatedAt = updatedAt;
     Id_disponibilidad = disponibilidad;
     id_nombre = label;
+    id_createdAt = createdAt;
     console.log(id_nombre);
     console.log("onClick");
     return label;
@@ -147,7 +152,14 @@ export default () => {
   }
 
   function getId_updatedAt() {
-    return id_updatedAt;
+    if (id_updatedAt === null) {
+
+      const update = id_updatedAt?.toString() ?? "";
+
+      return (update);
+    } else {
+      return id_createdAt;
+    }
   }
 
   //const id_nombre: String = "";

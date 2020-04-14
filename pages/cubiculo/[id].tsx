@@ -64,7 +64,11 @@ export default () => {
     return (
       cubiculosState.map(cubiculo => {
         if (cubiculo._id === id) {
-          return cubiculo.updatedAt;
+          if (cubiculo.updatedAt === null) {
+            return cubiculo.createdAt?.toString() ?? "";
+          } else {
+            return cubiculo.updatedAt?.toString() ?? "";
+          }
         }
       })
     )
